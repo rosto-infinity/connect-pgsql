@@ -6,7 +6,7 @@ $options = [];
 
 try {
   $bdd = new PDO($dsn, $username, $password, $options);
-  echo "Connexion reussie a la base de donneesPostgres ";
+  echo "Connexion reussie a la base de donneesPostgres avec succes ";
 
 } catch(PDOException $e) {
 die("erreur: " . $e->getMessage());
